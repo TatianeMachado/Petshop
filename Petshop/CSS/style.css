@@ -1,0 +1,69 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+:root {
+  --backgroud-titulo: #252525;
+  --texto-principal: #ffffff;
+}
+.container-fundo {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../assets/Grupo486@2x.png");
+}
+.container-header {
+  background-color: var(--backgroud-titulo);
+
+  width: 100vw;
+  height: 69px;
+}
+.imagem-pet {
+  background-size: contain;
+  width: 26px;
+  height: 26px;
+  position: fixed;
+  top: 20px;
+  left: 62px;
+}
+.texto {
+  position: fixed;
+  top: 20px;
+  left: 103px;
+  width: 83px;
+  color: var(--texto-principal);
+}
+.icones {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  justify-content: right;
+  gap: 20px;
+  padding: 25px 60px;
+}
+.container-texto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.titulo-principal {
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: var(--texto-principal);
+  margin: 100px 0;
+}
+.texto-format {
+  position: relative;
+  right: 180px;
+  top: 25px;
+}
+.container-foto {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
